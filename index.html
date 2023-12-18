@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <header>
+        <input onclick="reload()" id="page-logo" type="image" src="./Images/Design_sem_nome-removebg-preview.png" />
+        <img class="page-logo" src="./Images/Rick-And-Morty-Logo.png" alt="">
+        <h1>API de Rick and Morty</h1>
+        <br>
+        <div>
+            <input type="text" id="searchInput" placeholder="Search by name...">
+            <button id="searchbarButton" onclick="searchCharacters()">Search</button>
+        </div>
+        <br>
+        <br>
+        <span id="line"></span>
+    </header>
+    <main>
+        <div class="cards-list">
+        </div>
+        <div id="pagination"></div>
+
+        <h2>Page 1</h2>
+
+        <br>
+        <img class="card-outside-image" src="./Images/rick-and-morty-portal-shoes-white-clothing-zavvi-23.png" alt="">
+    </main>
+    <footer class="page-footer">
+        <div id="footer-content"></div>
+        <br>
+        <h3>Made by: Nalanda Baiotto in 2023.</h3>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./JS/api.js"></script>
+    <script src="./JS/script.js"></script>
+</body>
+</html>

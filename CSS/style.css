@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+}
+
+main {
+    align-content: center;
+}
+
+#page-logo {
+    width: 150px;
+    display: block;
+    margin-right: auto;
+    margin-top: 30px;
+}
+header {
+    width: 100%;
+    height: 700px;
+    background-image: url(../Images/Design\ sem\ nome.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#searchbarButton {
+    border-radius: 25px;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: #6ec300;
+    border: 5px solid #009b00;
+    font-family: Space mono;
+}
+
+#searchInput {
+    font-family: Space mono;
+    border-radius: 30px;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    border: 5px solid #009b00;
+    font-size: 30px;
+}
+#line {
+    width: 100%;
+    height: 30px;
+    background-color: #009b00;
+    display:block;
+}
+.dot {
+    width: 10px;
+    height:10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.card-outside-image {
+    width: 450;
+    height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.page-logo {
+    width: 600px;
+    border: none;
+}
+.card {
+    display:flex;
+    border: none;
+    margin: 60px;
+    width: 500px;
+    height: 250px;
+    background-color: #6ec300;
+    border: 5px solid #009b00;
+}
+
+.cards-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 80px;
+}
+
+header {
+    text-align: center;
+    font-size: 30px;
+    
+}
+header h1 {
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: #81df07; 
+    color: #00afd6;
+    font-family: rubik bubbles;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 20px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #db9854;
+}
+
+.card-title {
+    color: darkgreen;
+    font-size: 20px;
+    margin-left: 15px;
+    font-family: Space mono;
+}
+
+.card-status,
+.card-location,
+.card-episode {
+    padding: 10px;
+    font-size: 13px;
+    font-family: Martian Mono;
+}
+
+.dot-alive {
+    background-color: chartreuse;
+}
+
+.dot-dead {
+    background-color: red;
+}
+
+.dot-unknown {
+    background-color: gray;
+}
+
+.card-image {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+    border: 4px solid #009b00 ;    
+}
+
+#pagination button{
+    margin: 40px;
+    width: 140px;
+    height: 80px;
+    border-radius: 25px;
+    font-size: 22px;
+    font-family: Space mono;
+    padding: 15px;
+    color: white;
+    background-color: #6ec300;
+    border: 5px solid #009b00;
+    cursor: pointer;
+    text-align: center;
+}
+
+#pagination {
+    text-align: center;
+}
+
+
+.page-footer {
+    width: 100%;
+    background-color: #009b00;
+    height: 500px;
+    text-align: center;
+}
+
+.page-footer h2 {
+    font-family: Space mono;
+    position: relative;
+    display: block;
+    margin-top: 80px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.page-footer h3 {
+    margin-top: 280px;
+    font-family: Space mono;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-family: Space mono;
+    color: white;
+}
